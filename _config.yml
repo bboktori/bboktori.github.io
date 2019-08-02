@@ -1,14 +1,14 @@
-theme                   : "minimal-mistakes-jekyll"
+# theme                 : "minimal-mistakes-jekyll"
 # remote_theme          : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin   : "mint" #"default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin   : "default" #"air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "º¹Åä¸®Blog"
+title                    : "ÂºÂ¹Ã…Ã¤Â¸Â®Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "bboktori"
-description              : "°øºÎ/ÀÏ»ó"
+description              : "Â°Ã¸ÂºÃ/Ã€ÃÂ»Ã³"
 url                      : https://bboktori.github.io
 baseurl                  : bboktori/bboktori.github.io
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
