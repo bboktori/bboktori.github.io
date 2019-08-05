@@ -244,10 +244,38 @@ plt.bar(ind, y, width=0.3, bottom=5)
 <div class="input_area" markdown="1">
 
 ```python
+n = 5
+menMeans = (20, 35, 30, 35, 27)
+womenMeans = (25, 32, 34, 20, 27)
 
+ind = np.arange(n)
+width = 0.35
+
+p1 = plt.bar(ind-width/2, menMeans, width, color='#d62728')
+p2 = plt.bar(ind+width/2, womenMeans, width)
+
+plt.ylabel('Scores')
+plt.title('Scores by group and gender')
+plt.xticks(ind, ('G1', 'G2', 'G3', 'G4', 'G5'))
+plt.yticks(np.arange(0, 81, 10))
+plt.legend((p1, p2), ('Men', 'Women'))
 ```
 
 </div>
+
+
+
+
+{:.output_data_text}
+```
+<matplotlib.legend.Legend at 0xd71c3b0>
+```
+
+
+
+
+![png](2019-08-05-study-python-matplotlib_files/2019-08-05-study-python-matplotlib_14_1.png)
+
 
 
 <div class="input_area" markdown="1">
