@@ -1,7 +1,7 @@
 ---
-layout: posts  
-title: \[Database\] Normalization  
-date: 2019-08-01  
+title: "[Database] Normalization"  
+categories:  
+    - study
 tags:  
     - GitHub  
     - Jekyll  

@@ -1,7 +1,7 @@
 ---
-layout: posts  
 title: ERD (w/ Visual Paradigm)  
-date: 2019-07-31  
+categories:  
+    - study
 tags:  
     - JupyterLab  
     - Jekyll  

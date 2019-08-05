@@ -1,7 +1,5 @@
 ---
-layout: posts  
-title: \[DataBase\] Transaction  
-date: 2019-08-05  
+title: "[DataBase] Transaction"  
 categories:  
     - study
 tags:  

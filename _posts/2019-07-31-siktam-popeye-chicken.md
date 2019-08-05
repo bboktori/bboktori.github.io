@@ -1,7 +1,7 @@
 ---
-layout: posts  
 title: 금호동 뽀빠이 치킨  
-date: 2019-07-31  
+categories:  
+    - 식탐
 tags:  
     - 금호동  
     - 뽀빠이치킨  

@@ -1,7 +1,7 @@
 ---
-layout: posts  
 title: GitHub Blog 만들기 (w/ Jekyll, JupyterLab)  
-date: 2019-07-23  
+categories:  
+    - study
 tags:  
     - GitHub  
     - Jekyll  

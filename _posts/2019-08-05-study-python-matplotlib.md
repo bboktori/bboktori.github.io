@@ -1,7 +1,7 @@
 ---
-layout: posts  
-title: [Python] MatplotLib  
-date: 2019-08-05  
+title: "[Python] MatplotLib"  
+categories:  
+    - study
 tags:  
     - GitHub  
     - Jekyll  
@@ -275,6 +275,55 @@ plt.legend((p1, p2), ('Men', 'Women'))
 
 
 ![png](2019-08-05-study-python-matplotlib_files/2019-08-05-study-python-matplotlib_14_1.png)
+
+
+
+<div class="input_area" markdown="1">
+
+```python
+lables = 'Frogs', 'Hogs', 'Dogs', 'Logs'
+sizes = 15, 30, 45, 10
+explode = 0, 0.1, 0, 0
+
+plt.pie(sizes, explode=explode, labels=lables, autopct='%1.1f%%',
+       shadow=True, startangle=90)
+plt.axis('equal')
+plt.legend()
+```
+
+</div>
+
+
+
+
+{:.output_data_text}
+```
+<matplotlib.legend.Legend at 0xc4d4ef0>
+```
+
+
+
+
+![png](2019-08-05-study-python-matplotlib_files/2019-08-05-study-python-matplotlib_15_1.png)
+
+
+
+<div class="input_area" markdown="1">
+
+```python
+
+```
+
+</div>
+
+
+
+
+{:.output_data_text}
+```
+tuple
+```
+
 
 
 
