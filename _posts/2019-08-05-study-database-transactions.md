@@ -1,6 +1,6 @@
 ---
-layout: post  
-title: [DataBase] Transaction  
+layout: posts  
+title: \[DataBase\] Transaction  
 date: 2019-08-05  
 tags:  
     - GitHub  
@@ -8,8 +8,6 @@ tags:
     - JupyterLab  
     - Database
 ---
-
-# [DataBase] Transaction  
 
 1. Transaction?
 1. ACID Properites

@@ -1,6 +1,6 @@
 ---
-layout: post  
-title: [Database] Normalization  
+layout: posts  
+title: \[Database\] Normalization  
 date: 2019-08-01  
 tags:  
     - GitHub  

@@ -1,5 +1,5 @@
 ---
-layout: post  
+layout: posts  
 title: Markdown 문법 정리 (w/ JupyterLab)  
 date: 2019-07-25  
 tags:  

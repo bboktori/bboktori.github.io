@@ -1,5 +1,5 @@
 ---
-layout: post  
+layout: posts  
 title: GitHub Blog 만들기 (w/ Jekyll, JupyterLab)  
 date: 2019-07-23  
 tags:  
@@ -37,8 +37,10 @@ git config --global user.password { GitHub password }
 https://www.python.org/downloads/  
 설치 중 환경변수 Path 추가 : Add Python 3.x Path  
 또는 환경변수 Path 추가 :  
-> C:\Users\\{ windows id }\AppData\Local\Programs\Python\Python37-32  
-  C:\Users\\{ windows id }\AppData\Local\Programs\Python\Python37-32\Scripts  
+```markdown
+C:\Users\\{ windows id }\AppData\Local\Programs\Python\Python37-32  
+C:\Users\\{ windows id }\AppData\Local\Programs\Python\Python37-32\Scripts  
+```
 
 2. JupyterLab 설치  
 > pip install jupyerlab  
