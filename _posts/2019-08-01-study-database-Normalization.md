@@ -1,7 +1,8 @@
 ---
-title: "[Database] Normalization"  
+title: "[DataBase] Normalization"  
 categories:  
     - study
+    - database
 tags:  
     - GitHub  
     - Jekyll  

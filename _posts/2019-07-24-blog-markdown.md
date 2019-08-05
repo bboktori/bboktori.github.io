@@ -1,10 +1,11 @@
 ---
-title: Markdown 문법 정리 (w/ JupyterLab)  
+title: "Markdown 문법 정리 (w/ JupyterLab)"  
 categories:  
     - study
+    - blog
 tags:  
-    - Markdown  
     - JupyterLab  
+    - Markdown  
 ---
 
 1. Markdown 이란?
@@ -58,47 +59,68 @@ _**bold** with itilic_ *bold __with__ itilic*
 <U>under line</U>  
 ~~cancel line~~  
 
-# 4. list
+## 4. list
 
+### Unordered Lists  
+- unordered item using -  
++ unordered item using +  
+* unordered item using *  
 ```markdown
-1. first ordered list
-  1. first sub item
-  2. second sub item
-2. second ordered list
-  + sub item
-  - sub item
-1. third ordered list
+- unordered item using -  
++ unordered item using +  
+* unordered item using *  
 ```
-1. first ordered list
-  1. first sub item
-  2. second sub item
-2. second ordered list
-  + sub item
-  - sub item
-1. third ordered list
 
+### Ordered Lists  
+1. first item  
+2. second item  
+1. third item  
 ```markdown
-* non ordered list
-+ non ordered list
-- non ordered list
-* non ordered list
-  + non ordered list
-    - non ordered list
-      * non ordered list
-        + non ordered list
-          - non ordered list
+1. first item  
+2. second item  
+1. third item  
 ```
-* non ordered list
-+ non ordered list
-- non ordered list
-* non ordered list
-  + non ordered list
-    - non ordered list
-      * non ordered list
-        + non ordered list
-          - non ordered list
+
+### Task Lists  
+- [ ] check box  
+- [x] checked  
+```markdown
+- [ ] check box  
+- [x] checked  
+```
+
+### Nested and Mixed Lists  
+1. first item  
+  1. first sub item  
+  2. second sub item  
+2. second item  
+  + sub item  
+  - sub item  
+  + [x] with check  
++ unordered item  
+  1. first sub item  
+  2. second sub item  
+  3. [ ] with check  
+```markdown
+1. first item  
+  1. first sub item  
+  2. second sub item  
+2. second item  
+  + sub item  
+  - sub item  
+  + [x] with check  
++ unordered item  
+  1. first sub item  
+  2. second sub item  
+  3. [ ] with check  
+```
 
 # 5. Link
+
+Some [link](#) can also be shown
+```markdown
+Some [link](#) can also be shown
+````
 
 
 
@@ -135,7 +157,7 @@ if __name__ == '__main__':
 
 
 
-# 3. BlockQuote
+## 3. BlockQuote
 
 ```markdown
 > Block Quote  
@@ -154,10 +176,9 @@ if __name__ == '__main__':
 
 ![이미지 이름](이미지 URL)
 
-[] check box  
-[o] chkeck  
-[x] uncheck  
-[v] checked
+
+
+
 
 
 <div class="input_area" markdown="1">

@@ -311,26 +311,42 @@ plt.legend()
 <div class="input_area" markdown="1">
 
 ```python
-
+v = np.random.uniform(0., 10., 4)
+plt.uniform(v)
 ```
 
 </div>
 
 
-
-
-{:.output_data_text}
+{:.output_traceback_line}
 ```
-tuple
+---------------------------------------------------------------------------
 ```
 
+{:.output_traceback_line}
+```
+AttributeError                            Traceback (most recent call last)
+```
+
+{:.output_traceback_line}
+```
+<ipython-input-18-7aed01b667b0> in <module>
+      1 v = np.random.uniform(0., 10., 4)
+----> 2 plt.uniform(v)
+
+```
+
+{:.output_traceback_line}
+```
+AttributeError: module 'matplotlib.pyplot' has no attribute 'uniform'
+```
 
 
 
 <div class="input_area" markdown="1">
 
 ```python
-
+plt.subplot()
 ```
 
 </div>

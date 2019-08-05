@@ -2,6 +2,7 @@
 title: ERD (w/ Visual Paradigm)  
 categories:  
     - study
+    - database
 tags:  
     - JupyterLab  
     - Jekyll  

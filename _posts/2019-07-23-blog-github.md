@@ -1,5 +1,5 @@
 ---
-title: GitHub Blog 만들기 (w/ Jekyll, JupyterLab)  
+title: "GitHub Blog 만들기 (w/ Jekyll, JupyterLab)"  
 categories:  
     - study
 tags:  
@@ -77,7 +77,25 @@ name, description 수정
 YYYY-MM-DD-제목.md  
 
 2. 파일 헤더  
-layout: post  
-title: [ title ]  
-\---  
-[ contents ]
+```
+---
+layout: posts  
+title: "title"  
+last_modified_at: 2016-03-09T16:20:02-05:00  
+categories:  
+  - blog  
+tags:  
+  - jekyll  
+  - sample  
+link: some link (http://~)
+---
+```
+
+
+<div class="input_area" markdown="1">
+
+```python
+
+```
+
+</div>

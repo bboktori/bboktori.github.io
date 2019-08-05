@@ -2,6 +2,7 @@
 title: GitHub Blog 에 Disqus 댓글 추가  
 categories:  
     - study
+    - blog
 tags:
     - GitHub
     - Disqus  
