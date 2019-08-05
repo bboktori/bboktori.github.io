@@ -7,6 +7,8 @@ tags:
     - Jekyll  
     - JupyterLab  
     - Database
+toc: true
+toc_sticty: true
 ---
 
 1. Transaction?
