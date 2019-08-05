@@ -1,15 +1,13 @@
 ---
 layout: post  
-title: GitHub Blog 만들기 (w/ Jekyll, JupyterLab)  
-date: 2019-07-23  
+title: [Database] Normalization  
+date: 2019-08-01  
 tags:  
     - GitHub  
     - Jekyll  
     - JupyterLab  
     - Database
 ---
-
-# Database Normalization
 
 Database Normalization은 관계형 데이터베이스(Relational Database)에서 데이터 중복성(data redundancy)을 최소화하고 데이터 무결성(data integrity)을 향상시키는 테이블 구조화 프로세스이다.
 
