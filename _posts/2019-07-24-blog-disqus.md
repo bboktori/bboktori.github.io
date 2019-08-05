@@ -1,5 +1,4 @@
 ---
-layout: post  
 title: GitHub Blog 에 Disqus 댓글 추가  
 date: 2019-07-24  
 comments: true  
