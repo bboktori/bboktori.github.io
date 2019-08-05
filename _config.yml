@@ -284,3 +284,4 @@ defaults:
       related: true
       toc: true
       toc_sticky: true
+      toc_levels: 1..2
