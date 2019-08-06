@@ -96,7 +96,7 @@ analytics:
 # Site Author
 author:
   name             : "bboktori"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg
   bio              : "hello"
   location         : "Seoul, Korea"
   email            : bboktori@gmail.com
@@ -195,7 +195,7 @@ kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
-  toc_levels: 1..6
+  toc_levels: 1..2
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
@@ -278,10 +278,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true
       toc: true
       toc_sticky: true
-      toc_levels: 1..2
