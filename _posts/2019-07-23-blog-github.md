@@ -1,5 +1,5 @@
 ---
-title: "GitHub Blog 만들기 (w/ Jekyll, JupyterLab)"  
+title: "GitHub Blog 만들기 _with_ Jekyll, Minimal Mistakes"  
 categories:  
     - study
 tags:  
@@ -15,7 +15,7 @@ https://github.com/
 
 2. Jekyll theme 을 GitHub에 fork  
 Jekyll theme 중 맘에드는 theme fork  
-Jekyll Now : https://github.com/barryclark/jekyll-now  
+Jekyll Minimal Mistakes : https://github.com/mmistakes/minimal-mistakes
 Jekyll Themes : https://jekyllthemes.io/  
 Jekyll Themes : http://jekyllthemes.org/  
 
@@ -69,8 +69,6 @@ git push -u origin master
 1. _config.yml 수정  
 name, description 수정
 
-
-
 # 4. Publish Post
 
 1. 파일 이름  
@@ -90,12 +88,3 @@ tags:
 link: some link (http://~)
 ---
 ```
-
-
-<div class="input_area" markdown="1">
-
-```python
-
-```
-
-</div>

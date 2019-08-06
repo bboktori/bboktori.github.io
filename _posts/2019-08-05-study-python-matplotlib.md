@@ -285,6 +285,7 @@ lables = 'Frogs', 'Hogs', 'Dogs', 'Logs'
 sizes = 15, 30, 45, 10
 explode = 0, 0.1, 0, 0
 
+%matplotlib inline
 plt.pie(sizes, explode=explode, labels=lables, autopct='%1.1f%%',
        shadow=True, startangle=90)
 plt.axis('equal')
@@ -298,7 +299,7 @@ plt.legend()
 
 {:.output_data_text}
 ```
-<matplotlib.legend.Legend at 0xc4d4ef0>
+<matplotlib.legend.Legend at 0xba8ea90>
 ```
 
 
